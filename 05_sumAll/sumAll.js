@@ -1,5 +1,5 @@
 const sumAll = function(start, end) {
-    if (!(start instanceof Number) || !(end instanceof Number)) {
+    if (!(typeof start === "number") || !(typeof end === "number")) {
         return "ERROR";
     }
 
