@@ -3,6 +3,10 @@ const sumAll = function(start, end) {
         return "ERROR";
     }
 
+    if (start < 0 || end < 0) {
+        return "ERROR";
+    }
+
     // Reversed argument check
     if (start > end) {
         let temp = start;
