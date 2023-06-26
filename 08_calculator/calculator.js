@@ -17,8 +17,11 @@ const multiply = (...nums) => {
 
 const power = (num, exp) => Math.pow(num, exp);
 
-const factorial = function() {
-	
+const factorial = num => {
+  let sum = num;
+  for (let i = num - 1; i > 0; i--) 
+    sum *= i;
+  return sum; 
 };
 
 // Do not edit below this line
