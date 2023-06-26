@@ -2,8 +2,10 @@ const add = (num1, num2) => num1 + num2;
 
 const subtract = (num1, num2) => num1 - num2;
 
-const sum = function() {
-	
+const sum = (nums) => {
+  let total = 0;
+  nums.forEach(num => total += +num);
+  return total;
 };
 
 const multiply = function() {
