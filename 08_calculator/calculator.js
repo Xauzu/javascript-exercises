@@ -8,8 +8,11 @@ const sum = (nums) => {
   return total;
 };
 
-const multiply = function() {
-
+const multiply = (...nums) => {
+  let product = nums[0];
+  for (let i = 1; i < nums.length; i++)
+    product *= nums[i];
+  return product;
 };
 
 const power = function() {
