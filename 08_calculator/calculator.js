@@ -15,9 +15,7 @@ const multiply = (...nums) => {
   return product;
 };
 
-const power = function() {
-	
-};
+const power = (num, exp) => Math.pow(num, exp);
 
 const factorial = function() {
 	
