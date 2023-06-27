@@ -14,5 +14,11 @@ const findTheOldest = people => {
     return ordered[ordered.length-1];
 };
 
+// single line difficult to read
+// const findTheOldest = people => people.reduce((old, current) => 
+//     (!old.yearOfDeath ? (new Date()).getFullYear() : old.yearOfDeath) - old.yearOfBirth < 
+//     (!current.yearOfDeath ? (new Date()).getFullYear() : current.yearOfDeath) - current.yearOfBirth 
+//     ? current : old);
+
 // Do not edit below this line
 module.exports = findTheOldest;
