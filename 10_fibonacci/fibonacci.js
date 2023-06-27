@@ -1,5 +1,5 @@
 const fibonacci = series => {
-    if (series < 0) return "OOPS";
+    if (series < 1) return "OOPS";
     if (series <= 2) return 1;
     
     let num1 = 1;
